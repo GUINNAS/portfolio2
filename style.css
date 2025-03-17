@@ -35,23 +35,22 @@ nav a{
     transition: .5s;
 }
 
-nav a:hover,
-nav a.active {
+nav a:hover {
     color: green;
 }
 
 section{
-    position: absolute;
     width: 100%;
     height: 100%;
     padding: 10rem 9% 2rem;
     background: #1f242d;
 }
 
-.Inicio{
+#Inicio{
     display: flex;
     align-items: center;
     gap: 5rem;
+    height: 100vh;
 }
 
 .Inicio-detalhes h1{
@@ -112,9 +111,16 @@ section{
     box-shadow: 0 0 1rem green;
 }
 
+.titulo-sobre-mim, .titulo-especialidades {
+    text-align: center;
+}
+
+/* SESSÃO SOBRE MIM */
+/* SESSÃO SOBRE MIM */
+/* SESSÃO SOBRE MIM */
 /* SESSÃO SOBRE MIM */
 
-.sobre-mim {
+#sobre-mim {
     padding: 20px;
     background: #1f242d;
     font-family: 'Red Hat Display', sans-serif; 
@@ -207,8 +213,141 @@ section{
     margin-bottom: 10px;
 }
 
-.sobre-mim, .container-sobre-mim, .tabs-sobre-mim, .tab-sobre-mim, .tab-content-sobre-mim {
+#sobre-mim, .container-sobre-mim, .tabs-sobre-mim, .tab-sobre-mim, .tab-content-sobre-mim {
     color: #fff;
 }
 
+/* SESSÃO ESPECIALIDADES */
+/* SESSÃO ESPECIALIDADES */
+/* SESSÃO ESPECIALIDADES */
+/* SESSÃO ESPECIALIDADES */
+/* SESSÃO ESPECIALIDADES */
+/* SESSÃO ESPECIALIDADES */
 
+
+#especialidades {
+    padding: 20px;
+    background-color: #1f242d;
+    height: 90vh;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+.titulo-especialidades {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.container-especialidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.especialidade {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(56, 55, 55, 0.747);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#especialidades h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.descricao-especialidade {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+#especialidades .container-especialidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+  
+#especialidades .menu-lateral-especialidades {
+  width: 200px;
+  background-color: #1f242d;
+  padding: 20px;
+}
+
+#especialidades .menu-lateral-especialidades ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#especialidades .menu-lateral-especialidades li {
+  margin-bottom: 10px;
+}
+
+.botao-especialidade {
+    background-color: #1f242d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+  
+.botao-especialidade:hover {
+    background: transparent;
+    color: green;
+    box-shadow: none;
+    border: 2px solid #34C759;
+}
+
+.botao-especialidade.ativo {
+  background-color: #34C759;
+  color: #fff;
+}
+
+#especialidades .conteudo-especialidades {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+#especialidades .conteudo-especialidades div {
+    display: none;
+    background-color: rgba(56, 55, 55, 0.747);
+    height: 40vh;
+    padding: 30px;
+    border-radius: 10px;
+    transition: opacity 2s, transform 2s;
+}
+
+#especialidades .conteudo-especialidades div:target {
+  display: block;
+}
+
+#especialidades .conteudo-especialidades div {
+    display: none;
+}
+
+.tab-content-especialidades {
+    display: none;
+    padding: 30px;
+    transition: opacity 2s, transform 2s;
+}
+
+.tab-content-especialidades.active {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}

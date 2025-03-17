@@ -12,32 +12,30 @@
     <header>
         <a href="#" class="logo">GUINNAS</a>
         
-        <nav>
-            <a href="#" class="active">Inicio</a>
-            <a href="#">Sobre</a>
-            <a href="#">Especialidades</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+        <nav class="navbar">
+            <a href="#Inicio" class="active">Inicio</a>
+            <a href="#sobre-mim">Sobre</a>
+            <a href="#especialidades">Especialidades</a>
         </nav>
     
     </header>
 
-    <section class="Inicio">
+    <section id="Inicio">
         <div class="Inicio-detalhes">
             <h1>Olá, eu sou o Guinnas!</h1>
             <p>Bem-vindo ao meu portfólio! Sou um programador apaixonado por tecnologia e desenvolvimento de software. Aqui você encontrará meus projetos, habilidades e experiências. Vamos construir algo incrível juntos?</p>
             <div class="btn-sci">
-                <a href="#" class="btn">Saiba mais</a>
+                <a href="#" class="btn">Baixar Curriculo</a>
                 <div class="sci">
-                    <a href="#"><i class="bx bxl-github"></i></a>
-                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/GUINNAS "><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/guilherme-massucato-6501bb236/"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://www.instagram.com/guimassucato_/"><i class='bx bxl-instagram'></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sobre-mim">
+    <section id="sobre-mim">
         <h2 class="titulo-sobre-mim">Sobre mim</h2>
         <div class="container-sobre-mim">
           <div class="tabs-sobre-mim">
@@ -45,6 +43,7 @@
             <button class="tab-sobre-mim" data-tab="formacao">Formação</button>
             <button class="tab-sobre-mim" data-tab="eventos">Eventos</button>
           </div>
+
           <div class="content-sobre-mim">
             <div class="tab-content-sobre-mim active" data-tab="pessoa">
               <h3>Quem sou eu?</h3>
@@ -60,6 +59,7 @@
                 <li>Profissão: Desenvolvedor Fullstack</li>
               </ul>
             </div>
+
             <div class="tab-content-sobre-mim" data-tab="formacao">
               <h3>Formação</h3>
               <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde estou desenvolvendo uma base sólida em programação, redes, banco de dados e segurança da informação. Meu foco é aprimorar minhas habilidades técnicas e aprender sobre as melhores práticas do mercado para me tornar um profissional qualificado e preparado para os desafios do setor.
@@ -76,6 +76,7 @@
 
               </ul>
             </div>
+
             <div class="tab-content-sobre-mim" data-tab="eventos">
               <h3>Eventos</h3>
               <p>Ao longo da minha jornada na área de Tecnologia da Informação, tive a oportunidade de participar de diversos eventos, workshops e conferências que ampliaram meus conhecimentos e me conectaram com profissionais do setor. Esses eventos foram fundamentais para meu aprendizado, permitindo que eu conhecesse novas tendências, tecnologias e boas práticas do mercado.</p>
@@ -86,6 +87,57 @@
                 <li>HackaToon Inova Agro 2024 <i>(SEBRAE)</i></li>
                 <li>Santander Explorer X 2024 <i>(Santander)</i></li>
               </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="especialidades">
+        <h2 class="titulo-especialidades">Especialidades</h2>
+        <div class="container-especialidades">
+            <div class="menu-lateral-especialidades">
+                <button class="botao-especialidade" data-target="#backend">Back-End</button>
+                <button class="botao-especialidade" data-target="#frontend">Front-End</button>
+                <button class="botao-especialidade" data-target="#frameworks">Frameworks</button>
+                <button class="botao-especialidade" data-target="#outros">Outros</button>
+            </div>
+          <div class="conteudo-especialidades">
+            <div id="backend">
+                <h3>Backend</h3>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C/C++</li>
+                <li>Harbour</li>
+            </div>
+            
+            <div id="frontend">
+              <h3>Front-End</h3>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </div>
+            <div id="frameworks">
+              <h3>Frameworks</h3>
+                <li>React</li>
+                <li>Angular</li>
+                <li>NextJS</li>
+                <li>Bootstrap</li>
+                <li>Django</li>
+                <li>TailwindCSS</li>
+            </div>
+            <div id="outros">
+              <h3>Outros</h3>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Linux</li>
+                <li>Docker</li>
+                <li>Amazon AWS</li>
+                <li>Google Cloud</li>
+                <li>Azure</li>
+                <li>Jupyter</li>
+                <li>Anaconda</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
             </div>
           </div>
         </div>
