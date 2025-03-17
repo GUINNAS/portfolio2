@@ -11,7 +11,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background: rgb(36, 36, 36);
     display: flex;
     justify-content: space-between;
@@ -22,16 +22,16 @@ header{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 700;
 }
 
 nav a{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     font-weight: 500;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
     transition: .5s;
 }
 
@@ -45,7 +45,7 @@ section{
     width: 100%;
     height: 100%;
     padding: 10rem 9% 2rem;
-    background: #ffffff;
+    background: #1f242d;
 }
 
 .Inicio{
@@ -53,4 +53,162 @@ section{
     align-items: center;
     gap: 5rem;
 }
+
+.Inicio-detalhes h1{
+    font-size: clamp(3rem, 10vw, 3.5rem);
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+.Inicio-detalhes p{
+    font-size: 1.3rem;
+    margin: 1rem 0 2.5rem;
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+.Inicio-detalhes .btn-sci{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: green;
+    border: .2rem solid green;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem green;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+
+.btn:hover{
+    background: transparent;
+    color: green;
+    box-shadow: none;
+}
+
+.Inicio-detalhes .btn-sci .sci{
+    margin-left: 2rem;
+}
+
+.Inicio-detalhes .btn-sci .sci a{
+    display: inline-flex;
+    padding: .5rem;
+    border: .2rem solid green;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: green;
+    margin: 0 .8rem;
+    transition: .5s;
+}
+
+.Inicio-detalhes .btn-sci .sci a:hover{
+    background: green;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem green;
+}
+
+/* SESSÃO SOBRE MIM */
+
+.sobre-mim {
+    padding: 20px;
+    background: #1f242d;
+    font-family: 'Red Hat Display', sans-serif; 
+}
+  
+.titulo-sobre-mim {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.container-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+  
+.tabs-sobre-mim {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transition: .5s;
+    gap: 10px;
+}
+
+.tab-sobre-mim:hover {
+    background: transparent;
+    color: green;
+    box-shadow: none;
+    border: 2px solid #34C759;
+}
+  
+.tab-sobre-mim {
+    background-color: #1f242d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.tab-sobre-mim.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+  
+.content-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(56, 55, 55, 0.747);
+    border-radius: 10px;
+    width: 50%;
+    height: 80%;
+}
+  
+.tab-content-sobre-mim {
+    display: none;
+    padding: 30px;
+    transition: opacity 2s, transform 2s;
+}
+  
+.tab-content-sobre-mim.active {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.tab-content-sobre-mim:not(.active) {
+    opacity: 0;
+    transform: scale(0.5);
+}
+  
+.tab-content-sobre-mim h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.tab-content-sobre-mim ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.tab-content-sobre-mim li {
+    margin-bottom: 10px;
+}
+
+.sobre-mim, .container-sobre-mim, .tabs-sobre-mim, .tab-sobre-mim, .tab-content-sobre-mim {
+    color: #fff;
+}
+
 

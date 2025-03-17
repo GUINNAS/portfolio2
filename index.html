@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="config.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -25,21 +25,74 @@
     <section class="Inicio">
         <div class="Inicio-detalhes">
             <h1>Olá, eu sou o Guinnas!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Recusandae nobis adipisci porro beatae dicta! Iste ut, temporibus odit aspernatur recusandae error quae 
-            qui eius natus perspiciatis? Natus expedita voluptatem at?</p>
+            <p>Bem-vindo ao meu portfólio! Sou um programador apaixonado por tecnologia e desenvolvimento de software. Aqui você encontrará meus projetos, habilidades e experiências. Vamos construir algo incrível juntos?</p>
             <div class="btn-sci">
                 <a href="#" class="btn">Saiba mais</a>
+                <div class="sci">
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
             </div>
-            
+        </div>
+    </section>
 
+    <section class="sobre-mim">
+        <h2 class="titulo-sobre-mim">Sobre mim</h2>
+        <div class="container-sobre-mim">
+          <div class="tabs-sobre-mim">
+            <button class="tab-sobre-mim active" data-tab="pessoa">Pessoa</button>
+            <button class="tab-sobre-mim" data-tab="formacao">Formação</button>
+            <button class="tab-sobre-mim" data-tab="eventos">Eventos</button>
+          </div>
+          <div class="content-sobre-mim">
+            <div class="tab-content-sobre-mim active" data-tab="pessoa">
+              <h3>Quem sou eu?</h3>
+              <p>Olá! Meu nome é Guilherme, tenho 18 anos e sou estudante de Análise e Desenvolvimento de Sistemas. Desde cedo, sempre fui fascinado por tecnologia e pela forma como a programação pode transformar ideias em realidade. Atualmente, estou aprimorando meus conhecimentos em desenvolvimento de software, buscando sempre novas formas de criar soluções inovadoras e eficientes.
 
+                Gosto de desafios e estou constantemente aprendendo novas linguagens, frameworks e ferramentas para me tornar um profissional cada vez mais completo. Minha paixão pela tecnologia vai além do código: gosto de entender como os sistemas funcionam, otimizar processos e desenvolver aplicações que realmente fazem a diferença.
+                
+                Aqui no meu portfólio, você encontrará alguns dos meus projetos e experiências. Estou sempre aberto a novas oportunidades, colaborações e aprendizados. Sinta-se à vontade para entrar em contato! 🚀</p>
+              <ul>
+                <br>
+                <li>Nome: Guilherme Massucato</li>
+                <li>Idade: 18 anos</li>
+                <li>Profissão: Desenvolvedor Fullstack</li>
+              </ul>
+            </div>
+            <div class="tab-content-sobre-mim" data-tab="formacao">
+              <h3>Formação</h3>
+              <p>Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, onde estou desenvolvendo uma base sólida em programação, redes, banco de dados e segurança da informação. Meu foco é aprimorar minhas habilidades técnicas e aprender sobre as melhores práticas do mercado para me tornar um profissional qualificado e preparado para os desafios do setor.
+
+                Além da formação acadêmica, busco constantemente novos conhecimentos por meio de cursos online, tutoriais e projetos práticos. Tenho interesse especial em desenvolvimento de software, inteligência artificial e cibersegurança, áreas que me motivam a continuar evoluindo e explorando novas tecnologias.
+                
+                Estou sempre em busca de aprendizado e aprimoramento, pois acredito que a tecnologia está em constante evolução, e um bom profissional precisa acompanhar essas mudanças para se destacar no mercado.</p>
+              <ul>
+                <br>
+                <li>Graduação em Análise e Desenvolvimento de Sistemas</li>
+                <li>Certificação AWS Certified Cloud Practitioner <i>(Amazon AWS)</i></li>
+                <li>Certificação Explorer RocketSeat <i>(RocketSeat)</i></li>
+                <li>Certificação Web Moderno JavaScript <i>(Cod3r - Udemy)</i></li>
+
+              </ul>
+            </div>
+            <div class="tab-content-sobre-mim" data-tab="eventos">
+              <h3>Eventos</h3>
+              <p>Ao longo da minha jornada na área de Tecnologia da Informação, tive a oportunidade de participar de diversos eventos, workshops e conferências que ampliaram meus conhecimentos e me conectaram com profissionais do setor. Esses eventos foram fundamentais para meu aprendizado, permitindo que eu conhecesse novas tendências, tecnologias e boas práticas do mercado.</p>
+              <ul>
+                <br>
+                <li>WorkinTech 2024 - Cloud e AWS <i>(UniCesumar)</i></li>
+                <li>NASA Space Apps Challenge 2024 <i>(NASA)</i></li>
+                <li>HackaToon Inova Agro 2024 <i>(SEBRAE)</i></li>
+                <li>Santander Explorer X 2024 <i>(Santander)</i></li>
+              </ul>
+            </div>
+          </div>
         </div>
     </section>
 
 
-
-
+    <script src="config.js"></script>
 </body>
 
 </html>
